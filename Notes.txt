@@ -1,0 +1,90 @@
+css selector:
+    1. Element Selectors : p
+    2. Class Selector	: .gray
+    3. Id selector : #sec
+    4. Group Selector : 
+                    h1,h2{}   applied to h1 and h2
+                    h1 h2{}   applies to all h2 who is child of h1
+    5.Universal selector
+
+Cascading :
+  WaterFall
+  last applied
+  Specificity
+  Inheritance: Font and Font style
+  Form Element not inherit:
+  button,input,textarea,select{
+font : inherit:
+}
+
+html{}
+main{}
+
+
+CSS COLORs:
+       RGB
+       rbga
+       Hexadecimal
+website : coolors
+
+
+CSS Units:
+1 px
+percentage
+rem: looking at root element
+em : looking ar Parent element
+vw
+vh
+
+h1{
+font-size : 3rem
+padding : 1em.....> 3rem
+}
+
+*{
+margin: 0;
+padding :0;
+box-sizing : border-box;
+}
+
+CSS box-model
+outline
+outline-offset
+
+Circle : border-radius: 50%
+
+TypoGraphy
+text-decoration
+text-decoration:none          ===> for remove css of text
+Text-transform
+text-align
+text-indent	
+line-height
+letter-spacing
+word-spacing
+font-weight
+font-family
+
+Styling Links:
+text-decoration:none;
+cursor:pointer
+       not-allowed
+
+a:visited
+a:hover
+a:active
+a:focus
+opacity
+
+List Style:
+orderlist and unorederedlist
+list-style-type
+
+ul li:nth-child(2){
+color:
+
+}
+
+odd,even
+
+::marker{}
